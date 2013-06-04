@@ -51,7 +51,7 @@ public class Uploading extends Activity {
 	private static final int DIALOG_LEGAL = 0;
 	private static final int MAX_RETRIES = 5;
 	private static final int BACKOFF = 4; // base of exponential backoff
-	protected static final String LOG_TAG = "Anuj";
+	protected static final String LOG_TAG = "XXX-YOUTUBE";
 	private ProgressDialog dialog = null;
 	private String ytdDomain = null;
 	private String assignmentId = null;
