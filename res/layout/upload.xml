@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+  
+  <TextView
+  android:padding="10dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/header"
+  android:textSize="20sp"
+  android:text="Enter Video Details Here :"
+  android:paddingLeft="5dp"
+  />
+  
+  
+  <TextView
+   android:padding="5dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/titletxt"
+  android:text="Title :"
+  android:paddingLeft="5dp"
+  />
+  <EditText
+   android:padding="5dp"
+  android:layout_width="200dp"
+  android:layout_height="wrap_content"
+  android:id="@+id/title"
+  />
+ 
+    <TextView
+     android:padding="5dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/titletxt"
+  android:text="Description :"
+  android:paddingLeft="5dp"
+  />
+  <EditText
+   android:padding="5dp"
+  android:layout_width="200dp"
+  android:layout_height="wrap_content"
+  android:id="@+id/desc"
+  />
+ 
+    <TextView
+     android:padding="5dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/titletxt"
+  android:text="Date :"
+  android:paddingLeft="5dp"
+  />
+  <EditText
+  android:layout_width="200dp"
+  android:layout_height="wrap_content"
+  android:id="@+id/datetaken"
+  />
+ 
+  
+<Button
+  android:paddingTop="10dp"
+  android:layout_gravity="center_horizontal|center"
+  android:text="Upload"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/uploadbtn"/>
+  
+
+</LinearLayout>
